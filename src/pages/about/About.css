@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.text {
+    margin-top: 15%;
+}
+
+.text p {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.text h4{
+    margin-top: 20px;
+    color: white;
+}
+
+.text button {
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: linear-gradient(90.35deg, #2563eb 0.36%, #d946ef 201.02%);
+    color: white;
+    font-size: 20px;
+}

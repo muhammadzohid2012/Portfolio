@@ -1,0 +1,122 @@
+.Service {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+  .Service .service1 {
+    width: 50%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .service1 h1 {
+    font-size: 2rem;
+    color: #fff;
+  }
+  .service1 p {
+    font-size: 1rem;
+    color: #fff;
+  }
+  .Service .service2 {
+    width: 100%;
+    height: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .service2 .card1,
+  .service2 .card2,
+  .service2 .card3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background: #ffffff10;
+    backdrop-filter: blur(15px);
+    color: #fff;
+    gap: 25px;
+  }
+  .service2 .card1 h3,
+  .service2 .card2 h3,
+  .service2 .card3 h3 {
+    font-size: 1.9rem;
+  }
+  .service2 .card4 h3,
+  .service2 .card5 h3,
+  .service2 .card6 h3 {
+    font-size: 1.9rem;
+  }
+  .service2 .card4,
+  .service2 .card5,
+  .service2 .card6 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background: #ffffff10;
+    backdrop-filter: blur(50px);
+    gap: 25px;
+    color: #fff;
+  }
+
+  .card1:hover,
+  .card2:hover,
+  .card3:hover,
+  .card4:hover,
+  .card5:hover,
+  .card6:hover{
+    transform: translateY(-15px);
+  }
+
+  .card1:hover{
+    border: 5px solid blueviolet;
+  }
+  
+  .card2:hover{
+    border: 5px solid palevioletred;
+  }
+
+  .card3:hover{
+    border: 5px solid cadetblue;
+  }
+
+  .card3:hover{
+    border: 5px solid cadetblue;
+  }
+
+  .card4:hover{
+    border: 5px solid chartreuse;
+  }
+
+  .card5:hover{
+    border: 5px solid darkorchid;
+  }
+
+  .card6:hover{
+    border: 5px solid mediumslateblue;
+  }
+
+
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6{
+    transition: 40s all ease;
+  }

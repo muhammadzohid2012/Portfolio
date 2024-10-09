@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.complete{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.complete1 p {
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 100px;
+}
+
+.complete1 h3{
+    color: white;
+    margin-top: 40px;
+}
+
+.complete1 button {
+    width: 132px;
+    height: 42px;
+    background: linear-gradient(90.35deg, #2563eb 0.36%, #d946ef 201.02%);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+
+  .img img{
+    width: 500px;
+    margin-left: 70px;
+    margin-top: 50px;
+  }
+
